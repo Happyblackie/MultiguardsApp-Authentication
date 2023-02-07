@@ -74,6 +74,6 @@ class DoctorController extends Controller
     { 
 
         Auth::guard('doctor')->logout();
-        return redirect('/welcomeDoctor');
+        return redirect('/welcomedoctor');
     }
 }
